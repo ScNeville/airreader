@@ -32,9 +32,6 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Install pdfx web assets
-        run: flutter pub run pdfx:install_web
-
       - name: Build web (base-href = /airreader/)
         run: flutter build web --release --base-href /airreader/
 
