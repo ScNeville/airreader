@@ -1,0 +1,9 @@
+Material	Typical Thickness	Approx. 2.4 GHz Loss (dB)	Approx. 5 GHz Loss (dB)	Approx. 6 GHz Loss (dB)	Signal/Speed Impact (est.)
+Drywall / gypsum board	~1–2 cm	~2–4	~4–6	~6–8	Very low (~≤5% speed drop)
+Wood / Timber	~2–5 cm	~3–6	~6–10	~8–12	Low–moderate impact
+Glass (clear)	~0.5–1 cm	~1–3	~3–5	~5–7	Minor impact
+Brick (solid clay)	~15–20 cm	~8–14	~18–25	~28–38	Moderate; can reduce speeds noticeably
+Concrete (unreinforced)	~15 cm	~10–15	~20–28	~32–45	High attenuation
+Concrete + Rebar (reinforced)	~15 cm	~25–35	~30–45	~45–65	Very high; often no usable signal
+Metal (solid)	varies	~35–45	~40+	~45+	Near complete blockage
+Tinted / Low-E glass	~0.5 cm	~3–5	~12–20	~22–30	Moderate to severe for 5/6 GHz
