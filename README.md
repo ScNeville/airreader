@@ -1,6 +1,8 @@
 # AirReader
 
-> **Desktop WiFi survey and planning tool** — place access points on a floor plan, simulate RF propagation across 2.4 / 5 / 6 GHz bands, and instantly visualise signal coverage with a heat map.
+> **WiFi survey and planning tool** — place access points on a floor plan, simulate RF propagation across 2.4 / 5 / 6 GHz bands, and instantly visualise signal coverage with a heat map.
+
+🌐 **[Try it live on GitHub Pages](https://scneville.github.io/airreader/)**
 
 ---
 
@@ -25,11 +27,12 @@
 
 | Platform | Status |
 |---|---|
+| 🌐 Web (GitHub Pages) | ✅ Supported |
 | 🐧 Linux | ✅ Supported |
 | 🍎 macOS | ✅ Supported |
 | 🪟 Windows | ✅ Supported |
 
-AirReader is a **desktop-only** application; mobile and web builds are not officially supported.
+The web build is deployed automatically to [GitHub Pages](https://scneville.github.io/airreader/) on every push to `main`. Mobile builds are not officially supported.
 
 ---
 
@@ -69,15 +72,19 @@ flutter pub get
 
 # 3 — Run on your desktop
 flutter run -d linux     # or macos / windows
+
+# 3 — Or run in your browser
+flutter run -d chrome
 ```
 
 ### Build a Release Binary
 
 ```bash
 flutter build linux --release   # or macos / windows
+flutter build web --release --base-href /airreader/   # web
 ```
 
-The compiled application is placed in `build/linux/x64/release/bundle/` (Linux) or the equivalent platform folder.
+The compiled application is placed in `build/linux/x64/release/bundle/` (Linux), the equivalent platform folder for other desktops, or `build/web/` for the web build.
 
 ---
 
